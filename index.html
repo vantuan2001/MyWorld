@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>You are my world</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-container">
+        <img id="displayedImage" src="/assets/144p.png" alt="Image" />
+      </div>
+      <audio id="playAudio">
+        <source src="/assets/audio.mp3" type="audio/mpeg" />
+      </audio>
+      <select id="resolutionSelect" class="select">
+        <option value="144p">144p</option>
+        <option value="240p">240p</option>
+        <option value="480p">480p</option>
+        <option value="720p">720p</option>
+        <option value="1080p">1080p</option>
+      </select>
+      <canvas id="pinkboard"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
