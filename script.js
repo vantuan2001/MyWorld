@@ -263,7 +263,7 @@ document
     const selectedValue = this.value;
     const imageElement = document.getElementById("displayedImage");
     const playAudio = document.getElementById("playAudio");
-    imageElement.src = `/assets/${selectedValue}.png`;
+    imageElement.src = `assets/${selectedValue}.png`;
     if (selectedValue === "1080p") {
       startHeartAnimation();
       playAudio.play();
